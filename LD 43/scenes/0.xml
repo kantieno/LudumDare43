@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="3" desc="" eventsnippetid="0" extheight="672" extwidth="864" extx="-32" exty="-32" format="3.5.0-beta2" gravx="-0.0" gravy="0.0" height="608" id="0" name="Base Scene" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="800">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <background blendMode="normal" customScrollFactor="false" id="1" locked="true" name="Back" opacity="100" order="4" rid="27" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="3" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="3" locked="false" name="Layer 3" opacity="100" order="2" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <background blendMode="normal" customScrollFactor="false" id="2" locked="true" name="Fore" opacity="100" order="1" rid="28" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="64,64,64" id="4" locked="false" name="Layer 4" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors/>
+    <snippets>
+        <s enabled="true" id="4">
+            <prop id="1" list="1" val="">
+                <text order="0" value="Boots,0,2"/>
+                <text order="1" value="Quick Boots,1,1.5"/>
+                <text order="2" value="Spiked Gloves,2,2"/>
+                <text order="3" value="Strength Charm,3,1.5"/>
+                <text order="4" value="Swift Gloves,4,.75"/>
+                <text order="5" value="Plate Armor,5,1"/>
+                <text order="6" value="Mechanical Glove,6,.75"/>
+                <text order="7" value="Multi Charm,7,0"/>
+                <text order="8" value="Shortsword,8,1"/>
+                <text order="9" value="Blink,9,1"/>
+                <text order="10" value="Beartrap,10,4,2,1"/>
+                <text order="11" value="Helmet,11,0"/>
+            </prop>
+            <prop id="2" list="1" val=""/>
+            <prop id="3" list="0" val="0"/>
+            <prop id="4" list="0" val=""/>
+            <prop id="5" list="0" val=""/>
+            <prop id="6" list="0" val=""/>
+            <prop id="7" list="0" val=""/>
+            <prop id="8" list="0" val=""/>
+            <prop id="9" list="0" val=""/>
+            <prop id="10" list="0" val="0"/>
+            <prop id="11" list="0" val="0"/>
+            <prop id="12" list="0" val="false"/>
+            <prop id="13" list="0" val="null"/>
+            <prop id="14" list="0" val="null"/>
+            <prop id="15" list="0" val="0"/>
+            <prop id="16" list="0" val="0"/>
+            <prop id="17" list="0" val="false"/>
+            <prop id="18" list="0" val="false"/>
+            <prop id="19" list="0" val="0"/>
+            <prop id="20" list="0" val=""/>
+            <prop id="21" list="0" val="false"/>
+            <prop id="22" list="0" val=""/>
+            <prop id="23" list="0" val="false"/>
+            <prop id="24" list="1" val=""/>
+            <prop id="25" list="0" val="0"/>
+            <prop id="26" list="1" val="">
+                <number order="0" value="100.0"/>
+                <number order="1" value="700.0"/>
+                <number order="2" value="700.0"/>
+                <number order="3" value="100.0"/>
+                <number order="4" value="400.0"/>
+                <number order="5" value="250.0"/>
+                <number order="6" value="550.0"/>
+            </prop>
+            <prop id="27" list="1" val="">
+                <number order="0" value="100.0"/>
+                <number order="1" value="100.0"/>
+                <number order="2" value="500.0"/>
+                <number order="3" value="500.0"/>
+                <number order="4" value="300.0"/>
+                <number order="5" value="200.0"/>
+                <number order="6" value="200.0"/>
+            </prop>
+            <prop id="28" list="0" val="0"/>
+            <prop id="29" list="0" val="1"/>
+        </s>
+    </snippets>
+    <terrain>
+        <p pts="4,0.0,576.0,0.0,0.0,800.0,0.0,800.0,576.0" x="0.0" y="32.0"/>
+        <p pts="4,0.0,512.0,736.0,512.0,736.0,0.0,0.0,0.0" x="32.0" y="64.0"/>
+    </terrain>
+    <atlases members="" retainAtlases="true"/>
+</scene>

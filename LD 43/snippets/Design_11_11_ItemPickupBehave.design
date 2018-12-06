@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-collide-actortogroup comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-val-11-1 comment="false" x="26" y="47">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-11-1>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actorgroup eid="0" id="1"/>
+        </event-collide-actortogroup>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="2" id="-1">
+                        <draw-text comment="false" x="37" y="65">
+                            <int id="0" val="-F to Pickup-"/>
+                            <int id="1" val="-32"/>
+                            <int id="2" val="-32"/>
+                        </draw-text>
+                    </group>
+                    <get-val-11-1 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="2" id="1">
+        <set-val-11-1 comment="false" x="326" y="174">
+            <false comment="false" id="0" x="0" y="0"/>
+        </set-val-11-1>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-key-press-release comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="3" id="-1">
+                        <custom-4 comment="false" x="37" y="67">
+                            <get-val-11-2 comment="false" id="0" x="0" y="0"/>
+                        </custom-4>
+                        <die comment="false" x="37" y="92">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <get-val-11-1 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+            <control eid="12" id="0"/>
+            <int id="1" val="0"/>
+        </event-key-press-release>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="4" id="-1"/>
+        </init>
+    </group>
+    <group eventID="4" id="1">
+        <set-val-11-3 comment="false" x="176" y="139">
+            <image-file comment="false" id="0" x="0" y="0">
+                <int id="0" val=""/>
+            </image-file>
+        </set-val-11-3>
+        <set-val-11-4 comment="false" x="176" y="164">
+            <int id="0" val=""/>
+        </set-val-11-4>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <set-val-11-3 comment="false" x="26" y="40">
+                    <image-file comment="false" id="0" x="0" y="0">
+                        <str-combine comment="false" id="0" x="0" y="0">
+                            <int id="0" val="Item"/>
+                            <str-combine comment="false" id="1" x="0" y="0">
+                                <tostring comment="false" id="0" x="0" y="0">
+                                    <get-val-11-2 comment="false" id="0" x="0" y="0"/>
+                                </tostring>
+                                <int id="1" val=".png"/>
+                            </str-combine>
+                        </str-combine>
+                    </image-file>
+                </set-val-11-3>
+                <set-val-11-4 comment="false" x="26" y="85">
+                    <image-inst-create comment="false" id="0" x="0" y="0">
+                        <get-val-11-3 comment="false" id="0" x="0" y="0"/>
+                    </image-inst-create>
+                </set-val-11-4>
+                <image-inst-actor comment="false" x="26" y="115">
+                    <get-val-11-4 comment="false" id="0" x="0" y="0"/>
+                    <ACTOR eid="this" id="1"/>
+                    <int id="2" val="0"/>
+                    <int id="3" val="0"/>
+                    <int id="4" val="0"/>
+                </image-inst-actor>
+            </group>
+            <int id="0" val="created"/>
+        </event-custom>
+    </group>
+    <group eventID="5" id="-1"/>
+</groups>

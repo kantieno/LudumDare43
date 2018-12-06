@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <custom-block blocktag="custom-60" blocktype="ACTION" code=".say(&quot;Boss Behave&quot;, &quot;_customBlock_&quot;, []);" desc="" global="false" gui="Missing" id="60" message="" name="" oid="-1" return="void" shared="false" snippetID="28">
+        <blank name="@block.thisactor" order="0" type="actor"/>
+        <blank name="Angle" order="1" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-12" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_AddEffect&quot;, []);" desc="" global="false" gui="Add Effect %0" id="12" message="AddEffect" name="AddEffect" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="EffectNum" order="0" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-4" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_AddItem&quot;, []);" desc="" global="false" gui="Add %0 to items" id="4" message="AddItem" name="AddItem" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="ItemNum" order="0" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-24" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_AddMajorWound&quot;, []);" desc="" global="false" gui="Add Major Wound %0" id="24" message="AddMajorWound" name="AddMajorWound" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="WoundNum" order="0" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-20" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_AddMaxWound&quot;, []);" desc="" global="false" gui="Add Max Wound %0" id="20" message="AddMaxWound" name="AddMaxWound" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="WoundNum" order="0" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-22" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_AddMinorWound&quot;, []);" desc="" global="false" gui="Add Minor Wound %0" id="22" message="AddMinorWound" name="AddMinorWound" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="WoundNum" order="0" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-16" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_AddSecondary&quot;, []);" desc="" global="false" gui="Add Secondary %0" id="16" message="AddSecondary" name="AddSecondary" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="SecondaryNum" order="0" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-14" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_AddWeapon&quot;, []);" desc="" global="false" gui="Add Weapon %0" id="14" message="AddWeapon" name="AddWeapon" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="WeaponNum" order="0" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-18" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_AddWound&quot;, []);" desc="" global="false" gui="Add Wound %0" id="18" message="AddWound" name="AddWound" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="WoundNum" order="0" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-26" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_AdjusAttackCooldown&quot;, []);" desc="" global="false" gui="Adjust Attack Cooldown by %0" id="26" message="AdjusAttackCooldown" name="AdjusAttackCooldown" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="Mult" order="0" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-8" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_AdjustAttack&quot;, []);" desc="" global="false" gui="Adjust Attack by %0" id="8" message="AdjustAttack" name="AdjustAttack" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="Amount" order="0" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-9" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_AdjustAttackMod&quot;, []);" desc="" global="false" gui="Adjust AttackMod by %0" id="9" message="AdjustAttackMod" name="AdjustAttackMod" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="Mult" order="0" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-11" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_AdjustCooldown&quot;, []);" desc="" global="false" gui="Adjust Cooldown by %0" id="11" message="AdjustCooldown" name="AdjustCooldown" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="Mult" order="0" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-10" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_AdjustHealth&quot;, []);" desc="" global="false" gui="Adjust Health by %0" id="10" message="AdjustHealth" name="AdjustHealth" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="Amount" order="0" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-6" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_AdjustSpeed&quot;, []);" desc="" global="false" gui="Adjust Speed by %0" id="6" message="AdjustSpeed" name="AdjustSpeed" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="Amount" order="0" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-7" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_AdjustSpeedMod&quot;, []);" desc="" global="false" gui="Adjust SpeedMod by %0" id="7" message="AdjustSpeedMod" name="AdjustSpeedMod" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="Mult" order="0" type="number"/>
+    </custom-block>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="8" fixedrot="false" fric="0.2" gid="6" id="30" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Arrow" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="31" static="false">
+        <snippets>
+            <s enabled="true" id="9">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="0"/>
+                <prop id="2" list="0" val="1"/>
+                <prop id="3" list="0" val="0.0"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="31" name="Arrow" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="40" id="0" loop="true" name="Animation 0" numframes="1" originx="20" originy="20" sync="false" version="2" width="40">
+            <poly data="4,20,15,40,15,40,25,20,25" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="600" id="27" name="Back" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="800" xpf="1.0" ypf="1.0"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="15" fixedrot="false" fric="0.2" gid="5" id="44" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Chest" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="45" static="true">
+        <snippets>
+            <s enabled="true" id="14">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="false"/>
+                <prop id="2" list="0" val="true"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="45" name="Chest" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="80" id="0" loop="true" name="closed" numframes="1" originx="40" originy="40" sync="false" version="2" width="80">
+            <poly data="4,0,0,80,0,80,80,0,80" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+            <poly data="4,20,25,60,25,60,55,20,55" density="0.1" fric="0.2" gid="-1000" id="1" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="80" id="1" loop="true" name="open" numframes="1" originx="40" originy="40" sync="false" version="2" width="80">
+            <poly data="4,20,25,60,25,60,55,20,55" density="0.1" fric="0.2" gid="-1000" id="0" name="open" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <custom-block blocktag="custom-39" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_DamageHealth&quot;, []);" desc="" global="false" gui="Damage Health %0" id="39" message="DamageHealth" name="DamageHealth" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="Damage" order="0" type="number"/>
+    </custom-block>
+    <font alphabet="" atlasID="0" desc="" height="0" id="36" name="DescFont" offsets="" oid="-1" prerendered="false" readable="false" rowHeight="0" shared="false"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="16" fixedrot="false" fric="0.2" gid="8" id="46" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Door" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="47" static="false">
+        <snippets>
+            <s enabled="true" id="17">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="-20"/>
+                <prop id="2" list="0" val="0"/>
+                <prop id="3" list="0" val="3"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="47" name="Door" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="78" id="0" loop="true" name="open" numframes="1" originx="57" originy="39" sync="false" version="2" width="114">
+            <poly data="4,36,0,76,0,76,78,36,78" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="78" id="1" loop="true" name="closed" numframes="1" originx="57" originy="39" sync="false" version="2" width="114"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="18" fixedrot="false" fric="0.2" gid="8" id="48" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Door Left" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="49" static="false">
+        <snippets>
+            <s enabled="true" id="17">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="10"/>
+                <prop id="2" list="0" val="-20"/>
+                <prop id="3" list="0" val="1"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="49" name="Door Left" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="116" id="0" loop="true" name="open" numframes="1" originx="25" originy="58" sync="false" version="2" width="50">
+            <poly data="4,0,40,50,40,50,70,0,70" density="0.1" fric="0.2" gid="-1000" id="0" name="open" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="116" id="1" loop="true" name="closed" numframes="1" originx="25" originy="58" sync="false" version="2" width="50"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="19" fixedrot="false" fric="0.2" gid="8" id="50" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Door Right" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="51" static="false">
+        <snippets>
+            <s enabled="true" id="17">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="-20"/>
+                <prop id="2" list="0" val="-20"/>
+                <prop id="3" list="0" val="2"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="51" name="Door Right" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="114" id="0" loop="true" name="open" numframes="1" originx="27" originy="57" sync="false" version="2" width="55">
+            <poly data="4,0,40,55,40,55,70,0,70" density="0.1" fric="0.2" gid="-1000" id="0" name="open" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="114" id="1" loop="true" name="closed" numframes="1" originx="27" originy="57" sync="false" version="2" width="55"/>
+    </sprite>
+    <custom-block blocktag="custom-34" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_DrawItemDescription&quot;, []);" desc="" global="false" gui="Draw Description For %0" id="34" message="DrawItemDescription" name="DrawItemDescription" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="ItemNum" order="0" type="number"/>
+    </custom-block>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="24" fixedrot="false" fric="0.2" gid="7" id="58" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Enemy Bullet" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="59" static="false">
+        <snippets>
+            <s enabled="true" id="25">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="59" name="Enemy Bullet" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="40" id="0" loop="true" name="Animation 0" numframes="1" originx="20" originy="20" sync="false" version="2" width="40">
+            <poly data="4,0,17,40,17,40,23,0,23" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="21" fixedrot="false" fric="0.2" gid="4" id="52" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Enemy1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="53" static="false">
+        <snippets>
+            <s enabled="true" id="20">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="20"/>
+                <prop id="2" list="0" val="20"/>
+                <prop id="3" list="0" val="32"/>
+            </s>
+            <s enabled="true" id="26">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val=""/>
+            </s>
+            <s enabled="true" id="27">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="150"/>
+                <prop id="2" list="0" val="0"/>
+                <prop id="3" list="0" val="60"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="53" name="Enemy1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="50" id="0" loop="true" name="Animation 0" numframes="1" originx="25" originy="25" sync="false" version="2" width="50">
+            <poly data="4,0,0,50,0,50,50,0,50" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="31" fixedrot="false" fric="0.2" gid="4" id="62" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Enemy2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="63" static="false">
+        <snippets>
+            <s enabled="true" id="20">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="20"/>
+                <prop id="2" list="0" val="20"/>
+                <prop id="3" list="0" val="32"/>
+            </s>
+            <s enabled="true" id="26">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val=""/>
+            </s>
+            <s enabled="false" id="27">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="200"/>
+                <prop id="2" list="0" val="0"/>
+                <prop id="3" list="0" val="60"/>
+            </s>
+            <s enabled="true" id="30">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="80"/>
+                <prop id="2" list="0" val="0.0"/>
+                <prop id="3" list="0" val="60.0"/>
+                <prop id="4" list="0" val="20"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="63" name="Enemy2" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="50" id="0" loop="true" name="Animation 0" numframes="1" originx="25" originy="25" sync="false" version="2" width="50">
+            <poly data="4,0,0,50,0,50,50,0,50" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="33" fixedrot="false" fric="0.2" gid="4" id="64" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Enemy3" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="65" static="false">
+        <snippets>
+            <s enabled="true" id="32">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="100"/>
+                <prop id="2" list="0" val="0.0"/>
+                <prop id="3" list="0" val="60.0"/>
+                <prop id="4" list="0" val="8"/>
+            </s>
+            <s enabled="true" id="20">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="50"/>
+                <prop id="2" list="0" val="20"/>
+                <prop id="3" list="0" val="32"/>
+            </s>
+            <s enabled="true" id="26">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val=""/>
+            </s>
+            <s enabled="true" id="27">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="200"/>
+                <prop id="2" list="0" val="0"/>
+                <prop id="3" list="0" val="40"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="65" name="Enemy3" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="50" id="0" loop="true" name="Animation 0" numframes="1" originx="25" originy="25" sync="false" version="2" width="50">
+            <poly data="4,0,0,50,0,50,50,0,50" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="22" fixedrot="false" fric="0.2" gid="4" id="54" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="EnemyBoss" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="55" static="false">
+        <snippets>
+            <s enabled="true" id="20">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="200"/>
+                <prop id="2" list="0" val="200"/>
+                <prop id="3" list="0" val="64"/>
+            </s>
+            <s enabled="true" id="26">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val=""/>
+            </s>
+            <s enabled="false" id="27">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="100"/>
+                <prop id="2" list="0" val="0"/>
+                <prop id="3" list="0" val="80"/>
+            </s>
+            <s enabled="true" id="28">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="0"/>
+                <prop id="2" list="0" val="1000"/>
+                <prop id="3" list="0" val="60.0"/>
+                <prop id="4" list="0" val="30"/>
+            </s>
+            <s enabled="true" id="29">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="60.0"/>
+                <prop id="2" list="0" val="60"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="55" name="EnemyBoss" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="50" id="0" loop="true" name="Animation 0" numframes="1" originx="25" originy="25" sync="false" version="2" width="50">
+            <poly data="4,0,0,50,0,50,50,0,50" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="600" id="28" name="Fore" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="800" xpf="1.0" ypf="1.0"/>
+    <custom-block blocktag="custom-35" blocktype="NORMAL" code="&quot;&quot; + sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_GetItemDesc&quot;, [])" desc="" global="false" gui="Get Description for Item %0" id="35" message="GetItemDesc" name="GetItemDesc" oid="-1" return="text" shared="false" snippetID="4">
+        <blank name="ItemNum" order="0" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-40" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_HealHealth&quot;, []);" desc="" global="false" gui="Heal Health %0" id="40" message="HealHealth" name="HealHealth" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="Heal" order="0" type="number"/>
+    </custom-block>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="10" fixedrot="false" fric="0.2" gid="5" id="32" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="ItemPickup" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="33" static="true">
+        <snippets>
+            <s enabled="true" id="11">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="false"/>
+                <prop id="2" list="0" val="0"/>
+                <prop id="3" list="0" val=""/>
+                <prop id="4" list="0" val=""/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="33" name="ItemPickup" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="50" id="0" loop="true" name="Animation 0" numframes="1" originx="25" originy="25" sync="false" version="2" width="50">
+            <poly data="4,0,0,50,0,50,50,0,50" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+            <circle data="20,5,5" density="0.1" fric="0.2" gid="-1000" id="1" name="Circle" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="1" fixedrot="false" fric="0.2" gid="0" id="2" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Player" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="3" static="false">
+        <snippets>
+            <s enabled="true" id="2">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="0"/>
+                <prop id="2" list="0" val="30"/>
+            </s>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="false"/>
+                <prop id="2" list="0" val="0"/>
+                <prop id="3" list="0" val="0"/>
+                <prop id="4" list="0" val="0"/>
+                <prop id="5" list="0" val="0"/>
+                <prop id="6" list="0" val="90"/>
+                <prop id="7" list="0" val="5"/>
+                <prop id="8" list="0" val="0"/>
+                <prop id="9" list="0" val="0"/>
+                <prop id="10" list="0" val="50"/>
+            </s>
+            <s enabled="true" id="5">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="0"/>
+                <prop id="2" list="0" val="0"/>
+                <prop id="3" list="0" val="20"/>
+                <prop id="4" list="0" val="true"/>
+                <prop id="5" list="0" val="0"/>
+                <prop id="6" list="0" val="100"/>
+                <prop id="7" list="0" val="false"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="3" name="Player" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="50" id="0" loop="true" name="Anim0" numframes="1" originx="25" originy="25" sync="false" version="2" width="50">
+            <circle data="15,10,10" density="0.1" fric="0.2" gid="-1000" id="0" name="Circle" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="50" id="1" loop="true" name="Cut0" numframes="1" originx="25" originy="25" sync="false" version="2" width="50"/>
+    </sprite>
+    <custom-block blocktag="custom-37" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_PoseSacrifice&quot;, []);" desc="" global="false" gui="Pose Sacrfice %0" id="37" message="PoseSacrifice" name="PoseSacrifice" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="SacNum" order="0" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-13" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_RemoveEffect&quot;, []);" desc="" global="false" gui="Remove Effect %0" id="13" message="RemoveEffect" name="RemoveEffect" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="EffectNum" order="0" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-5" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_RemoveItem&quot;, []);" desc="" global="false" gui="Remove %0 from items" id="5" message="RemoveItem" name="RemoveItem" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="ItemNum" order="0" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-25" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_RemoveMajorWound&quot;, []);" desc="" global="false" gui="Remove Major Wound %0" id="25" message="RemoveMajorWound" name="RemoveMajorWound" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="WoundNum" order="0" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-21" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_RemoveMaxWound&quot;, []);" desc="" global="false" gui="Remove Max Wound %0" id="21" message="RemoveMaxWound" name="RemoveMaxWound" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="WoundNum" order="0" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-23" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_RemoveMinorWound&quot;, []);" desc="" global="false" gui="Remove Minor Wound %0" id="23" message="RemoveMinorWound" name="RemoveMinorWound" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="WoundNum" order="0" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-17" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_RemoveSecondary&quot;, []);" desc="" global="false" gui="Remove Secondary %0" id="17" message="RemoveSecondary" name="RemoveSecondary" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="SecondaryNum" order="0" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-15" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_RemoveWeapon&quot;, []);" desc="" global="false" gui="Remove Weapon %0" id="15" message="RemoveWeapon" name="RemoveWeapon" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="WeaponNum" order="0" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-19" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_RemoveWound&quot;, []);" desc="" global="false" gui="Remove Wound %0" id="19" message="RemoveWound" name="RemoveWound" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="WoundNum" order="0" type="number"/>
+    </custom-block>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="12" fixedrot="false" fric="0.2" gid="3" id="41" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Sacrfice" oid="-1" pausable="false" physicsMode="0" rest="0.0" shared="false" sprite="42" static="false">
+        <snippets>
+            <s enabled="true" id="13">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val=""/>
+                <prop id="2" list="0" val=""/>
+                <prop id="3" list="0" val="0"/>
+                <prop id="4" list="0" val="0"/>
+                <prop id="5" list="0" val=""/>
+                <prop id="6" list="0" val="false"/>
+                <prop id="7" list="0" val=""/>
+                <prop id="8" list="0" val="false"/>
+                <prop id="9" list="0" val=""/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="42" name="Sacrfice" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="250" id="0" loop="true" name="Animation 0" numframes="1" originx="115" originy="125" sync="false" version="2" width="230"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="36" fixedrot="false" fric="0.2" gid="3" id="66" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Sacrfice Copy" oid="-1" pausable="false" physicsMode="0" rest="0.0" shared="false" sprite="67" static="false">
+        <snippets>
+            <s enabled="true" id="35">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val=""/>
+                <prop id="2" list="0" val=""/>
+                <prop id="3" list="0" val="0.0"/>
+                <prop id="4" list="0" val="0.0"/>
+                <prop id="5" list="0" val=""/>
+                <prop id="6" list="0" val="false"/>
+                <prop id="7" list="0" val=""/>
+                <prop id="8" list="0" val="false"/>
+                <prop id="9" list="0" val=""/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="67" name="Sacrfice Copy" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="250" id="0" loop="true" name="Animation 0" numframes="1" originx="115" originy="125" sync="false" version="2" width="230"/>
+    </sprite>
+    <custom-block blocktag="custom-38" blocktype="ACTION" code="sayToScene(&quot;Scene Behave&quot;, &quot;_customBlock_Sacrifice&quot;, [, ]);" desc="" global="false" gui="Sacrifice %0 With %1" id="38" message="Sacrifice" name="Sacrifice" oid="-1" return="void" shared="false" snippetID="4">
+        <blank name="SacrificeNum" order="0" type="number"/>
+        <blank name="Modi" order="1" type="number"/>
+    </custom-block>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="44" id="43" name="SacrificeFont" offsets="0|0|0|,6|0|6,9|0|9,16|0|16,26|0|26,35|0|35,51|0|51,66|0|66,70|0|70,77|0|77,84|0|84,92|0|92,103|0|103,107|0|107,114|0|114,118|0|118,124|0|124,134|0|134,140|0|140,150|0|150,159|0|159,169|0|169,178|0|178,188|0|188,198|0|198,206|0|206,216|0|216,220|0|220,224|0|224,235|0|235,246|0|246,257|0|257,266|0|266,284|0|284,298|0|298,310|0|310,323|0|323,337|0|337,349|0|349,360|0|360,374|0|374,388|0|388,395|0|395,403|0|403,418|0|418,430|0|430,447|0|447,462|0|462,476|0|476,487|0|487,501|0|501,515|0|515,524|0|524,536|0|536,550|0|550,564|0|564,582|0|582,596|0|596,610|0|610,622|0|622,628|0|628,634|0|634,640|0|640,650|0|650,662|0|662,666|0|666,675|0|675,685|0|685,694|0|694,704|0|704,713|0|713,722|0|722,732|0|732,742|0|742,748|0|748,755|0|755,766|0|766,772|0|772,787|0|787,797|0|797,807|0|807,817|0|817,827|0|827,835|0|835,843|0|843,849|0|849,859|0|859,869|0|869,883|0|883,893|0|893,903|0|903,912|0|912,919|0|919,922|0|922,929|0|929,940|0|940,950|0|950,951|0|951,952|0|952,953|0|953,954|0|954,955|0|955,956|0|956,957|0|957,958|0|958,959|0|959,960|0|960,961|0|961,962|0|962,963|0|963,964|0|964,965|0|965,966|0|966,967|0|967,968|0|968,969|0|969,970|0|970,971|0|971,972|0|972,973|0|973,974|0|974,975|0|975,976|0|976,977|0|977,978|0|978,979|0|979,980|0|980,981|0|981,982|0|982,988|0|988,991|0|991,999|0|999,1009|0|1009,1019|0|1019,1029|0|1029,1032|0|1032,1040|0|1040,1047|0|1047,1062|0|1062,1068|0|1068,1078|0|1078,1089|0|1089,1096|0|1096,1111|0|1111,1123|0|1123,1131|0|1131,1142|0|1142,1148|0|1148,1154|0|1154,1158|0|1158,1168|0|1168,1179|0|1179,1182|0|1182,1187|0|1187,1192|0|1192,1199|0|1199,1209|0|1209,1223|0|1223,1237|0|1237,1252|0|1252,1261|0|1261,1275|0|1275,1289|0|1289,1303|0|1303,1317|0|1317,1331|0|1331,1345|0|1345,1363|0|1363,1376|0|1376,1388|0|1388,1400|0|1400,1412|0|1412,1424|0|1424,1431|0|1431,1438|0|1438,1445|0|1445,1452|0|1452,1466|0|1466,1481|0|1481,1495|0|1495,1509|0|1509,1523|0|1523,1537|0|1537,1551|0|1551,1560|0|1560,1574|0|1574,1588|0|1588,1602|0|1602,1616|0|1616,1630|0|1630,1644|0|1644,1655|0|1655,1665|0|1665,1674|0|1674,1683|0|1683,1692|0|1692,1701|0|1701,1710|0|1710,1719|0|1719,1732|0|1732,1741|0|1741,1750|0|1750,1759|0|1759,1768|0|1768,1777|0|1777,1783|0|1783,1789|0|1789,1795|0|1795,1803|0|1803,1813|0|1813,1823|0|1823,1833|0|1833,1843|0|1843,1853|0|1853,1863|0|1863,1873|0|1873,1884|0|1884,1894|0|1894,1904|0|1904,1914|0|1914,1924|0|1924,1934|0|1934,1944|0|1944,1954|0|1954,1964|0|1964,1978|0|1978,1987|0|1987,2001|0|2001,2010|0|2010,2024|0|2024,2033|0|2033,2046|0|2046,2055|0|2055,2068|0|2068,2077|0|2077,2090|0|2090,2099|0|2099,2112|0|2112,2121|0|2121,2135|0|2135,2148|0|2148,2162|0|2162,2172|0|2172,2184|0|2184,2193|0|2193,2205|0|2205,2214|0|2214,2226|0|2226,2235|0|2235,2247|0|2247,2256|0|2256,2268|0|2268,2277|0|2277,2291|0|2291,2301|0|2301,2315|0|2315,2325|0|2325,2339|0|2339,2349|0|2349,2363|0|2363,2373|0|2373,2387|0|2387,2397|0|2397,2411|0|2411,2421|0|2421,2428|0|2428,2435|0|2435,2442|0|2442,2449|0|2449,2456|0|2456,2463|0|2463,2470|0|2470,2476|0|2476,2483|0|2483,2489|0|2489,2503|0|2503,2513|0|2513,2522|0|2522,2530|0|2530,2545|0|2545,2556|0|2556,2567|0|2567,2579|0|2579,2585|0|2585,2597|0|2597,2603|0|2603,2615|0|2615,2624|0|2624,2636|0|2636,2643|0|2643,2655|0|2655,2661|0|2661,2676|0|2676,2686|0|2686,2701|0|2701,2711|0|2711,2726|0|2726,2736|0|2736,2748|0|2748,2761|0|2761,2770|0|2770,2784|0|2784,2794|0|2794,2808|0|2808,2818|0|2818,2832|0|2832,2842|0|2842,2859|0|2859,2873|0|2873,2887|0|2887,2895|0|2895,2909|0|2909,2917|0|2917,2931|0|2931,2939|0|2939,2948|0|2948,2956|0|2956,2965|0|2965,2973|0|2973,2982|0|2982,2990|0|2990,2999|0|2999,3007|0|3007,3019|0|3019,3025|0|3025,3037|0|3037,3046|0|3046,3058|0|3058,3064|0|3064,3078|0|3078,3088|0|3088,3102|0|3102,3112|0|3112,3126|0|3126,3136|0|3136,3150|0|3150,3160|0|3160,3174|0|3174,3184|0|3184,3198|0|3198,0|22|3208,18|22|3226,32|22|3240,46|22|3254,56|22|3264,70|22|3278,82|22|3290,91|22|3299,103|22|3311,112|22|3320,124|22|3332,133|22|3341" oid="-1" prerendered="false" readable="false" rowHeight="22" shared="false"/>
+    <custom-block blocktag="custom-61" blocktype="ACTION" code=".say(&quot;Enemy Shoot Bullet&quot;, &quot;_customBlock_ShootBullet&quot;, [, , ]);" desc="" global="false" gui="Shoot %3 towards %1 at %2 speed" id="61" message="ShootBullet" name="ShootBullet" oid="-1" return="void" shared="false" snippetID="29">
+        <blank name="@block.thisactor" order="0" type="actor"/>
+        <blank name="Angle" order="1" type="number"/>
+        <blank name="Speed" order="2" type="number"/>
+        <blank name="Type" order="3" type="number"/>
+    </custom-block>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="23" fixedrot="false" fric="0.2" gid="3" id="56" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Skull" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="57" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="57" name="Skull" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="250" id="0" loop="true" name="Animation 0" numframes="1" originx="115" originy="125" sync="false" version="2" width="230"/>
+    </sprite>
+    <tileset across="1" atlasID="0" desc="" down="1" id="29" name="Tiles" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
+    </tileset>
+</pack>

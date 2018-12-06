@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="34" extheight="672" extwidth="864" extx="-32" exty="-32" format="3.5.0-beta2" gravx="-0.0" gravy="0.0" height="608" id="2" name="Knowledge" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="800">
+    <layers>
+        <color-bg blue="0" green="0" red="0"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="true" group="3" id="66" name="Sacrfice Copy 1" sx="1.0" sy="1.0" x="-125" y="498" z="0">
+            <snippets>
+                <s enabled="true" id="35">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="3" list="0" val="3"/>
+                    <prop id="4" list="0" val="0.0"/>
+                    <prop id="6" list="0" val="true"/>
+                    <prop id="7" list="0" val="-1"/>
+                    <prop id="8" list="0" val="false"/>
+                    <prop id="9" list="0" val=""/>
+                </s>
+                <s enabled="true" id="36"/>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="2" c="true" group="3" id="66" name="Sacrfice Copy 2" sx="1.0" sy="1.0" x="690" y="506" z="0">
+            <snippets>
+                <s enabled="true" id="35">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="3" list="0" val="4"/>
+                    <prop id="4" list="0" val="0.0"/>
+                    <prop id="6" list="0" val="false"/>
+                    <prop id="7" list="0" val="-1"/>
+                    <prop id="8" list="0" val="false"/>
+                    <prop id="9" list="0" val=""/>
+                </s>
+                <s enabled="true" id="36"/>
+            </snippets>
+        </actor>
+    </actors>
+    <snippets/>
+    <terrain/>
+    <atlases members="" retainAtlases="true"/>
+</scene>

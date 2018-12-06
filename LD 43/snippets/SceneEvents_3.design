@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-font-new comment="false" x="26" y="40">
+                    <font eid="43" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="26" y="67">
+                    <int id="0" val="Tutorial"/>
+                    <int id="1" val="32"/>
+                    <int id="2" val="32"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="87">
+                    <int id="0" val="You have chosen knowledge"/>
+                    <int id="1" val="32"/>
+                    <int id="2" val="64"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="107">
+                    <int id="0" val="You have sacrificed time, so you must read the tutorial"/>
+                    <int id="1" val="32"/>
+                    <int id="2" val="96"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="127">
+                    <int id="0" val="If you had chosen to sacrifice time instead of knowledge..."/>
+                    <int id="1" val="32"/>
+                    <int id="2" val="128"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="147">
+                    <int id="0" val="You would have gotten a damage and speed upgrade..."/>
+                    <int id="1" val="32"/>
+                    <int id="2" val="160"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="167">
+                    <int id="0" val="Now you know."/>
+                    <int id="1" val="32"/>
+                    <int id="2" val="192"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="187">
+                    <int id="0" val="Don&amp;apos;t worry you have to have a BIG OL NOGGIN to hold that much knowledge"/>
+                    <int id="1" val="32"/>
+                    <int id="2" val="224"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="207">
+                    <int id="0" val="So you will get a special item as well, it will protect your head from wounds"/>
+                    <int id="1" val="32"/>
+                    <int id="2" val="256"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="227">
+                    <int id="0" val="The chests in this dungeon are very dangerous, opening one requires sacrifice"/>
+                    <int id="1" val="32"/>
+                    <int id="2" val="288"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="247">
+                    <int id="0" val="Either gain a wound on a body part or take damage"/>
+                    <int id="1" val="32"/>
+                    <int id="2" val="320"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="267">
+                    <int id="0" val="Do not allow yourself to acquire too many wounds"/>
+                    <int id="1" val="32"/>
+                    <int id="2" val="352"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="287">
+                    <int id="0" val="As a body part becomes more wounded, you will notice deleterious effects"/>
+                    <int id="1" val="32"/>
+                    <int id="2" val="384"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="307">
+                    <int id="0" val="You can view your wounds and look at your items by pressing p"/>
+                    <int id="1" val="32"/>
+                    <int id="2" val="416"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-key-any-press-release comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <scene-change-color comment="false" x="26" y="47">
+                    <scene eid="1" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val=".1"/>
+                    <color b="0" g="0" id="3" r="0"/>
+                    <int id="4" val="0"/>
+                    <int id="5" val=".1"/>
+                    <color b="0" g="0" id="6" r="0"/>
+                </scene-change-color>
+            </group>
+            <int id="0" val="0"/>
+        </event-key-any-press-release>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-mouse-press-release comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <scene-change-color comment="false" x="26" y="42">
+                    <scene eid="1" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val=".1"/>
+                    <color b="0" g="0" id="3" r="0"/>
+                    <int id="4" val="0"/>
+                    <int id="5" val=".1"/>
+                    <color b="0" g="0" id="6" r="0"/>
+                </scene-change-color>
+            </group>
+            <int id="0" val="0"/>
+        </event-mouse-press-release>
+    </group>
+    <group eventID="3" id="-1"/>
+</groups>

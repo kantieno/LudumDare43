@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="1" id="-1">
+                        <set-val-30-2 comment="false" x="37" y="70">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <get-val-30-2 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </minus>
+                        </set-val-30-2>
+                    </group>
+                    <more comment="false" id="0" x="0" y="0">
+                        <get-val-30-2 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </more>
+                </if>
+                <else comment="false" x="26" y="112">
+                    <group eventID="1" id="-1">
+                        <set-val-30-2 comment="false" x="37" y="132">
+                            <get-val-30-1 comment="false" id="0" x="0" y="0"/>
+                        </set-val-30-2>
+                        <create-actor3 comment="false" x="37" y="157">
+                            <actortype eid="58" id="0"/>
+                            <get-xy comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="2"/>
+                            </get-xy>
+                            <get-xy comment="false" id="2" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="3"/>
+                            </get-xy>
+                            <int id="3" val="2"/>
+                        </create-actor3>
+                        <setvel comment="false" x="37" y="197">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <getdir comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                            </getdir>
+                            <get-val-30-3 comment="false" id="2" x="0" y="0"/>
+                        </setvel>
+                        <setangle comment="false" x="37" y="237">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <getdir comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                            </getdir>
+                        </setangle>
+                    </group>
+                </else>
+            </group>
+        </step>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-val-30-2 comment="false" x="26" y="40">
+                    <get-val-30-1 comment="false" id="0" x="0" y="0"/>
+                </set-val-30-2>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-collide-actortogroup comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-val-20-1 comment="false" x="26" y="47">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <get-val-20-1 comment="false" id="0" x="0" y="0"/>
+                        <get-attribute comment="false" id="1" x="0" y="0">
+                            <collide-member-of-group comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="Bullet Behave"/>
+                            <int id="2" val="_Damage"/>
+                        </get-attribute>
+                    </minus>
+                </set-val-20-1>
+                <shout comment="false" x="26" y="90">
+                    <collide-member-of-group comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="hit"/>
+                </shout>
+                <if comment="false" x="26" y="122">
+                    <group eventID="2" id="-1">
+                        <set-val-20-1 comment="false" x="37" y="152">
+                            <int id="0" val="0"/>
+                        </set-val-20-1>
+                        <scene-say comment="false" x="37" y="172">
+                            <int id="0" val="Scene Behave"/>
+                            <int id="1" val="EnemyDead"/>
+                        </scene-say>
+                        <die comment="false" x="37" y="192">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <lesseq comment="false" id="0" x="0" y="0">
+                        <get-val-20-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </lesseq>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actorgroup eid="6" id="1"/>
+        </event-collide-actortogroup>
+    </group>
+    <group eventID="2" id="1">
+        <set-attribute comment="false" x="583" y="313">
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val=""/>
+            <int id="2" val=""/>
+            <int id="3" val=""/>
+        </set-attribute>
+    </group>
+    <group eventID="2" id="2">
+        <print comment="false" x="1175" y="67">
+            <int id="0" val="hit"/>
+        </print>
+    </group>
+    <group eventID="2" id="3">
+        <print comment="false" x="929" y="123">
+            <int id="0" val="sent event"/>
+        </print>
+    </group>
+    <group eventID="2" id="-1">
+        <collide-member-of-group comment="false" x="626" y="191"/>
+        <less comment="false" x="875" y="200">
+            <int id="0" val=""/>
+            <int id="1" val=""/>
+        </less>
+    </group>
+    <group eventID="3" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <set-drawing-layer-actor comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                </set-drawing-layer-actor>
+                <set-color comment="false" x="26" y="67">
+                    <color b="122" g="122" id="0" r="225"/>
+                </set-color>
+                <drawfill-rect comment="false" x="26" y="94">
+                    <int id="0" val="1"/>
+                    <minus comment="false" id="1" x="0" y="0">
+                        <get-wh comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="2"/>
+                        </get-wh>
+                        <div comment="false" id="1" x="0" y="0">
+                            <get-val-20-3 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="2"/>
+                        </div>
+                    </minus>
+                    <int id="2" val="-5"/>
+                    <times comment="false" id="3" x="0" y="0">
+                        <div comment="false" id="0" x="0" y="0">
+                            <get-val-20-1 comment="false" id="0" x="0" y="0"/>
+                            <get-val-20-2 comment="false" id="1" x="0" y="0"/>
+                        </div>
+                        <get-val-20-3 comment="false" id="1" x="0" y="0"/>
+                    </times>
+                    <int id="4" val="3"/>
+                </drawfill-rect>
+            </group>
+        </draw>
+    </group>
+    <group eventID="3" id="-1"/>
+</groups>

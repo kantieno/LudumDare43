@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <receiver-1-61 comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <create-actor3 comment="false" x="26" y="45">
+                    <actortype eid="58" id="0"/>
+                    <get-xy comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="2"/>
+                    </get-xy>
+                    <get-xy comment="false" id="2" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="3"/>
+                    </get-xy>
+                    <int id="3" val="2"/>
+                </create-actor3>
+                <setvel comment="false" x="26" y="85">
+                    <ACTOR eid="lastcreated" id="0"/>
+                    <get-byobval-29-61-1 comment="false" id="1" x="0" y="0"/>
+                    <plus comment="false" id="2" x="0" y="0">
+                        <get-byobval-29-61-2 comment="false" id="0" x="0" y="0"/>
+                        <get-val-29-2 comment="false" id="1" x="0" y="0"/>
+                    </plus>
+                </setvel>
+                <setangle comment="false" x="26" y="122">
+                    <ACTOR eid="lastcreated" id="0"/>
+                    <get-byobval-29-61-1 comment="false" id="1" x="0" y="0"/>
+                </setangle>
+            </group>
+            <get-byobval-29-61-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-29-61-1 comment="false" id="1" x="0" y="0"/>
+            <get-byobval-29-61-2 comment="false" id="2" x="0" y="0"/>
+            <get-byobval-29-61-3 comment="false" id="3" x="0" y="0"/>
+        </receiver-1-61>
+    </group>
+    <group eventID="1" id="-1">
+        <getdir comment="false" x="693" y="195">
+            <ACTOR eid="this" id="0"/>
+        </getdir>
+        <get-byobval-29-61-2 comment="false" x="548" y="253"/>
+        <get-val-29-1 comment="false" x="832" y="106"/>
+        <getdir comment="false" x="867" y="147">
+            <ACTOR eid="this" id="0"/>
+        </getdir>
+    </group>
+</groups>

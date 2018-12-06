@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <step comment="false" x="21" y="91">
+            <group eventID="1" id="-1">
+                <setangle comment="false" x="32" y="116">
+                    <ACTOR eid="this" id="0"/>
+                    <to-degreesradians comment="false" id="1" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <atan2 comment="false" id="1" x="0" y="0">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <get-xy comment="false" id="0" x="0" y="0">
+                                    <get-val-26-1 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="3"/>
+                                </get-xy>
+                                <get-xy comment="false" id="1" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="3"/>
+                                </get-xy>
+                            </minus>
+                            <minus comment="false" id="1" x="0" y="0">
+                                <get-xy comment="false" id="0" x="0" y="0">
+                                    <get-val-26-1 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="2"/>
+                                </get-xy>
+                                <get-xy comment="false" id="1" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="2"/>
+                                </get-xy>
+                            </minus>
+                        </atan2>
+                    </to-degreesradians>
+                </setangle>
+            </group>
+        </step>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <actors-in-group comment="false" x="26" y="40">
+                    <group eventID="2" id="-1">
+                        <set-val-26-1 comment="false" x="37" y="72">
+                            <actor-in-group comment="false" id="0" x="0" y="0"/>
+                        </set-val-26-1>
+                    </group>
+                    <actorgroup eid="0" id="0"/>
+                </actors-in-group>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <collide comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="45">
+                    <group eventID="1" id="-1">
+                        <die comment="false" x="37" y="78">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <collision-type2 comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <int id="1" val="0"/>
+                        <int id="2" val="2"/>
+                    </collision-type2>
+                </if>
+            </group>
+        </collide>
+    </group>
+    <group eventID="1" id="1">
+        <collision-shape-group2 comment="false" x="252" y="225">
+            <int id="0" val="1"/>
+        </collision-shape-group2>
+    </group>
+    <group eventID="1" id="-1">
+        <other-actor comment="false" x="423" y="27"/>
+    </group>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-val-9-1 comment="false" x="26" y="40">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <times comment="false" id="0" x="0" y="0">
+                            <get-val-9-2 comment="false" id="0" x="0" y="0"/>
+                            <times comment="false" id="1" x="0" y="0">
+                                <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                                <get-game-val-4 comment="false" id="1" x="0" y="0"/>
+                            </times>
+                        </times>
+                        <get-val-9-3 comment="false" id="1" x="0" y="0"/>
+                    </plus>
+                </set-val-9-1>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1">
+        <get-val-9-1 comment="false" x="683" y="56"/>
+    </group>
+    <group eventID="3" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <die comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                </die>
+            </group>
+            <int id="0" val="hit"/>
+        </event-custom>
+    </group>
+    <group eventID="3" id="1">
+        <print comment="false" x="470" y="108">
+            <int id="0" val="arrow"/>
+        </print>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-collide-actortogroup comment="false" x="15" y="15">
+            <group eventID="4" id="-1"/>
+            <ACTOR eid="this" id="0"/>
+            <actorgroup eid="1" id="1"/>
+        </event-collide-actortogroup>
+    </group>
+    <group eventID="4" id="1">
+        <die comment="false" x="124" y="164">
+            <ACTOR eid="this" id="0"/>
+        </die>
+    </group>
+    <group eventID="4" id="-1"/>
+</groups>

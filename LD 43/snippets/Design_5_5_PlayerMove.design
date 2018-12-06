@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="1" id="-1">
+                        <set-val-5-1 comment="false" x="37" y="65">
+                            <int id="0" val="0"/>
+                        </set-val-5-1>
+                        <set-val-5-2 comment="false" x="37" y="85">
+                            <int id="0" val="0"/>
+                        </set-val-5-2>
+                        <if comment="false" x="37" y="105">
+                            <group eventID="1" id="-1">
+                                <set-val-5-2 comment="false" x="48" y="143">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <get-val-5-2 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="1"/>
+                                    </minus>
+                                </set-val-5-2>
+                            </group>
+                            <or comment="false" id="0" x="0" y="0">
+                                <keystate comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                    <control eid="7" id="1"/>
+                                </keystate>
+                                <keystate comment="false" id="1" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                    <control eid="0" id="1"/>
+                                </keystate>
+                            </or>
+                        </if>
+                        <if comment="false" x="37" y="185">
+                            <group eventID="1" id="-1">
+                                <set-val-5-2 comment="false" x="48" y="223">
+                                    <plus comment="false" id="0" x="0" y="0">
+                                        <get-val-5-2 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="1"/>
+                                    </plus>
+                                </set-val-5-2>
+                            </group>
+                            <or comment="false" id="0" x="0" y="0">
+                                <keystate comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                    <control eid="9" id="1"/>
+                                </keystate>
+                                <keystate comment="false" id="1" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                    <control eid="1" id="1"/>
+                                </keystate>
+                            </or>
+                        </if>
+                        <if comment="false" x="37" y="265">
+                            <group eventID="1" id="-1">
+                                <set-val-5-1 comment="false" x="48" y="303">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <get-val-5-1 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="1"/>
+                                    </minus>
+                                </set-val-5-1>
+                            </group>
+                            <or comment="false" id="0" x="0" y="0">
+                                <keystate comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                    <control eid="8" id="1"/>
+                                </keystate>
+                                <keystate comment="false" id="1" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                    <control eid="2" id="1"/>
+                                </keystate>
+                            </or>
+                        </if>
+                        <if comment="false" x="37" y="345">
+                            <group eventID="1" id="-1">
+                                <set-val-5-1 comment="false" x="48" y="383">
+                                    <plus comment="false" id="0" x="0" y="0">
+                                        <get-val-5-1 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="1"/>
+                                    </plus>
+                                </set-val-5-1>
+                            </group>
+                            <or comment="false" id="0" x="0" y="0">
+                                <keystate comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                    <control eid="10" id="1"/>
+                                </keystate>
+                                <keystate comment="false" id="1" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                    <control eid="3" id="1"/>
+                                </keystate>
+                            </or>
+                        </if>
+                        <set-dxy comment="false" x="37" y="425">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <times comment="false" id="2" x="0" y="0">
+                                <times comment="false" id="0" x="0" y="0">
+                                    <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                                    <plus comment="false" id="1" x="0" y="0">
+                                        <get-game-val-5 comment="false" id="0" x="0" y="0"/>
+                                        <get-val-5-3 comment="false" id="1" x="0" y="0"/>
+                                    </plus>
+                                </times>
+                                <times comment="false" id="1" x="0" y="0">
+                                    <get-val-5-2 comment="false" id="0" x="0" y="0"/>
+                                    <minus comment="false" id="1" x="0" y="0">
+                                        <int id="0" val="1"/>
+                                        <abs comment="false" id="1" x="0" y="0">
+                                            <times comment="false" id="0" x="0" y="0">
+                                                <get-val-5-1 comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val=".38"/>
+                                            </times>
+                                        </abs>
+                                    </minus>
+                                </times>
+                            </times>
+                        </set-dxy>
+                        <set-dxy comment="false" x="37" y="482">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <times comment="false" id="2" x="0" y="0">
+                                <times comment="false" id="0" x="0" y="0">
+                                    <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                                    <plus comment="false" id="1" x="0" y="0">
+                                        <get-game-val-5 comment="false" id="0" x="0" y="0"/>
+                                        <get-val-5-3 comment="false" id="1" x="0" y="0"/>
+                                    </plus>
+                                </times>
+                                <times comment="false" id="1" x="0" y="0">
+                                    <get-val-5-1 comment="false" id="0" x="0" y="0"/>
+                                    <minus comment="false" id="1" x="0" y="0">
+                                        <int id="0" val="1"/>
+                                        <abs comment="false" id="1" x="0" y="0">
+                                            <times comment="false" id="0" x="0" y="0">
+                                                <get-val-5-2 comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val=".38"/>
+                                            </times>
+                                        </abs>
+                                    </minus>
+                                </times>
+                            </times>
+                        </set-dxy>
+                    </group>
+                    <get-val-5-4 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-val-5-4 comment="false" x="26" y="40">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-5-4>
+                <setanim comment="false" x="26" y="65">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="Anim0"/>
+                </setanim>
+            </group>
+            <int id="0" val="Entered"/>
+        </event-custom>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <set-val-5-4 comment="false" x="26" y="40">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-5-4>
+                <setanim comment="false" x="26" y="65">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="Cut0"/>
+                </setanim>
+            </group>
+            <int id="0" val="Exiting"/>
+        </event-custom>
+    </group>
+    <group eventID="3" id="-1"/>
+</groups>

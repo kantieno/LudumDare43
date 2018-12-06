@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="1" id="-1">
+                        <if comment="false" x="37" y="65">
+                            <group eventID="1" id="-1">
+                                <draw-text comment="false" x="48" y="90">
+                                    <int id="0" val="-F to Open-"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="-30"/>
+                                </draw-text>
+                            </group>
+                            <get-val-14-1 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                    </group>
+                    <get-val-14-2 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="1" id="1">
+        <set-val-14-1 comment="false" x="505" y="289">
+            <true comment="false" id="0" x="0" y="0"/>
+        </set-val-14-1>
+    </group>
+    <group eventID="1" id="2">
+        <set-drawing-layer-scene comment="false" x="883" y="284"/>
+    </group>
+    <group eventID="1" id="3">
+        <set-drawing-layer-actor comment="false" x="479" y="79">
+            <ACTOR eid="this" id="0"/>
+        </set-drawing-layer-actor>
+    </group>
+    <group eventID="1" id="4">
+        <set-drawing-layer comment="false" x="322" y="156">
+            <int id="0" val="0"/>
+            <int id="1" val="4"/>
+        </set-drawing-layer>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-collide-actortogroup comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="2" id="-1">
+                        <set-val-14-1 comment="false" x="37" y="72">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-14-1>
+                    </group>
+                    <get-val-14-2 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actorgroup eid="0" id="1"/>
+        </event-collide-actortogroup>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-key-press-release comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="3" id="-1">
+                        <if comment="false" x="37" y="67">
+                            <group eventID="3" id="-1">
+                                <custom-37 comment="false" x="48" y="92">
+                                    <int id="0" val="0"/>
+                                </custom-37>
+                                <create-actor3 comment="false" x="48" y="112">
+                                    <actortype eid="32" id="0"/>
+                                    <plus comment="false" id="1" x="0" y="0">
+                                        <get-xy comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="0"/>
+                                        </get-xy>
+                                        <int id="1" val="15"/>
+                                    </plus>
+                                    <plus comment="false" id="2" x="0" y="0">
+                                        <get-xy comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="1"/>
+                                        </get-xy>
+                                        <int id="1" val="15"/>
+                                    </plus>
+                                    <int id="3" val="2"/>
+                                </create-actor3>
+                                <set-attribute comment="false" x="48" y="157">
+                                    <ACTOR eid="lastcreated" id="0"/>
+                                    <int id="1" val="ItemPickup Behave"/>
+                                    <int id="2" val="_ItemNum"/>
+                                    <randint comment="false" id="3" x="0" y="0">
+                                        <int id="0" val="0"/>
+                                        <int id="1" val="11"/>
+                                    </randint>
+                                </set-attribute>
+                                <shout comment="false" x="48" y="189">
+                                    <ACTOR eid="lastcreated" id="0"/>
+                                    <int id="1" val="created"/>
+                                </shout>
+                                <set-val-14-2 comment="false" x="48" y="216">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-val-14-2>
+                                <setanim comment="false" x="48" y="241">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="open"/>
+                                </setanim>
+                            </group>
+                            <get-val-14-2 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                    </group>
+                    <get-val-14-1 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+            <control eid="12" id="0"/>
+            <int id="1" val="0"/>
+        </event-key-press-release>
+    </group>
+    <group eventID="3" id="1">
+        <custom-38 comment="false" x="977" y="178">
+            <int id="0" val=""/>
+            <int id="1" val=""/>
+        </custom-38>
+    </group>
+    <group eventID="3" id="-1"/>
+</groups>
